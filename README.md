@@ -16,7 +16,7 @@ pip3 install requests holehe PGPy
 ## Usage 
 ```bash
 python3 main.py -h
-python3 main.py --email <target>
+python3 main.py --email <target>  # To run all checkers
 python3 main.py --email <target> --only duolingo gravatar  # To run only duolingo and gravatar checkers
 python3 main.py --list-checkers   # To list all available checkers
 ```
