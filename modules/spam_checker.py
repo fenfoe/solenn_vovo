@@ -13,4 +13,4 @@ def check_spam(email):
             return {'spam': True, 'site': f"https://cleantalk.org/blacklists/{email}"}
     except Exception as e:
         print(e)
-
+        return False
