@@ -5,7 +5,7 @@ from modules.duolingo import check_duolingo
 from modules.github import check_github
 from modules.gravatar import check_gravatar
 from modules.holehe_using import check_holehe
-from modules.leaked_passwords import check_leaks_proxynova
+from modules.leaked_passwords import check_leaks
 from modules.mailru import check_mailru
 from modules.ok import check_OK
 from modules.proton import check_proton
@@ -18,7 +18,7 @@ from modules.tenant import check_tenant
 
 CHECKERS = {
     "spam": check_spam,
-    "leaks": check_leaks_proxynova,
+    "leaks": check_leaks,
     "duolingo": check_duolingo,
     "gravatar": check_gravatar,
     "holehe": check_holehe,
