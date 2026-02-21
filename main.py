@@ -57,6 +57,7 @@ def run_checks(email: str, selected=None):
 def list_checkers(parser):
     print("Available checkers:")
     print("\n".join(CHECKERS.keys()))
+    print(f"\nNumber of checkers: {len(CHECKERS)}")
     parser.exit()
 
 
