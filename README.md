@@ -26,4 +26,5 @@ python3 main.py --list-checkers   # To list all available checkers
 ![Result 1](images/res1.png)
 ![Result 2](images/res2.png)
 
-
+## Disclaimer
+This tool is for educational purposes only. Use of this tool is at your own risk. The author is not responsible for any outcomes resulting from its use.
